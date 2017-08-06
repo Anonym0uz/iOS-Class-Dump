@@ -60,6 +60,9 @@ The source code is also available from my Github repository at:
 
     class-dump /Dev42/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework -r --sdk-root /Dev42/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
 
+## Download
+
+[class-dump-v3.1.5](class-dump)
 
 ## License
 
