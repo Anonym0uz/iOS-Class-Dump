@@ -1,5 +1,12 @@
-class-dump
-==========
+# class-dump
+
+Why don't I just fork repo from [class-dump](https://github.com/nygard/class-dump)? Because I have the fork of [ios-class-guard](https://github.com/Polidea/ios-class-guard), and this project is also fork from [class-dump](https://github.com/nygard/class-dump).
+
+## Background
+
+If you're using the class-dump file dump header file from the mach-o file, You may have encountered the following error: **Error: Cannot find offset for address 0xxxxxxx in stringAtAddress.** The cause of this error is likely to be that the mach-O file is **Swift-OC-MixedCompilation**. I've changed some of the logic，allows the swift code to be ignored, and the Objective-C header file can be dumped successfully.
+
+## Introduction
 
 class-dump is a command-line utility for examining the Objective-C
 segment of Mach-O files.  It generates declarations for the classes,
@@ -14,8 +21,7 @@ The source code is also available from my Github repository at:
 
     https://github.com/nygard/class-dump
 
-Usage
------
+## Usage
 
     class-dump 3.5 (64 bit)
     Usage: class-dump [options] <mach-o-file>
@@ -55,8 +61,7 @@ Usage
     class-dump /Dev42/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework -r --sdk-root /Dev42/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
 
 
-License
--------
+## License
 
 This file is part of class-dump, a utility for examining the
 Objective-C segment of Mach-O files.
@@ -76,8 +81,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-Contact
--------
+## Contact
 
 You may contact the author by:
    e-mail:  nygard at gmail.com
