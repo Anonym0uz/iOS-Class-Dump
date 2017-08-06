@@ -1,3 +1,7 @@
+### Version 3.5.1 - Released 2017-08-06
+
+* Support dump Mach-O file which is Swift-OC-MixedCompilation
+
 ### Version 3.5 - Released 2013-11-16
 
 * Targeting 10.8+ now, and building with the 10.9 SDK.
