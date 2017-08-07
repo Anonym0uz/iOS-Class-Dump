@@ -62,7 +62,7 @@ The source code is also available from my Github repository at:
 
 ## Download
 
-[class-dump-v3.1.5](class-dump)
+[class-dump-v3.5.1](class-dump)
 
 ## License
 
